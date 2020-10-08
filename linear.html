@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Linear search</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+        <script type="text/javascript">
+        function r(){
+            var a=[];
+            var n = prompt("enter the size of the array");
+            for(var i=0;i<n;i++){
+                a[i]=prompt("enter "+(i+1)+" element");
+            }
+            var flag=0;
+            document.getElementById("original").innerHTML="the array is"+a;
+            var key=prompt("enter the search element");
+            for(var i=0;i<n;i++){
+                if(a[i]==key){
+                    flag=1;
+                    break;
+                }         
+            }
+            if(flag==1){
+                document.getElementById("result").innerHTML=key+" is Found";
+            }
+            else{
+                document.getElementById("result").innerHTML=key+" is Not Found in the array";
+            }
+        }
+
+        </script>
+
+    </head>
+    <body>
+        <h1 class="heading">Linear search</h1>
+        <div class="main">
+
+            <div class="part1">
+                <h1 class="enter">press start</h1>
+                <button class="button" onClick=r()>Start</button>
+                <input type="text" class="box1" id="b1">
+                <p id="original"></p>
+                <input type="text" class="box2" id="b2">
+                <h1 class="answer">Answer</h1>
+                <p id="result"></p>
+            </div>
+
+            <div class="part2">
+                <img src="tree.jpg" class="girlpic" alt="lilgirl">
+            </div>
+
+        </div>
+    </body>
+</html>

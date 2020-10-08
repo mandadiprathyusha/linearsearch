@@ -1,0 +1,110 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.main{
+    height:500px;
+    width:75%;
+    position: absolute;
+    left:12%;
+    top:12%;
+    border-left:2px solid black;
+    
+}
+
+.heading{
+    font-family: 'Bree Serif', serif;
+    color:#1a1c20;
+    text-align: center;
+}
+.part1{
+    width:50%;
+    height:500px;
+    background-color: black;
+    
+}
+.part2{
+    width:50%;
+    height:500px;
+    position: absolute;
+    right:0;
+    top:0;
+}
+
+.girlpic{
+    height:500px;
+    width:100%;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.enter{
+    margin:0;
+    font-family: 'Bree Serif', serif;
+    color:white;
+    position: absolute;
+    left:5%;
+    top:15%;
+}
+
+.box1{
+    width:30%;
+    height:40px;
+    border-radius: 20px;
+    position: absolute;
+    top:50%;
+    left:5%;
+}
+
+.button{
+    width:60px;
+    height:40px;
+    font-family: 'Bree Serif', serif;
+    background-color:white;
+    color:black ;
+    border-radius: 20px;
+    border:2px solid white;
+    position: absolute;
+    left:17%;
+    top:30%;
+}
+
+.box2{
+    width:30%;
+    height:40px;
+    border-radius: 20px;
+    position: absolute;
+    top:80%;
+    left:5%;
+}
+
+.result{
+    margin:0;
+}
+
+.answer{
+        margin:0;
+        font-family: 'Bree Serif', serif;
+        color:white;
+        position: absolute;
+        left:5%;
+        top:65%;
+}
+
+#original{
+    font-family: 'Bree Serif', serif;
+    color:black;
+    position: absolute;
+    left:6.5%;
+    top:50%;
+}
+
+#result{
+    font-family: 'Bree Serif', serif;
+    color:black;
+    position: absolute;
+    left:6%;
+    top:80%;
+
+}
